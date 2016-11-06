@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TemplatesList>
+<CategoryName>Corporate Templates</CategoryName>
+<Template>
+<Id>100</Id>
+<Name>Адаптивный шаблон Ugus 1.0 для ImageCMS</Name>
+<Url>http://www.imagecms.net/addons/shop/product/adaptivnyi-shablon-ugus-10-dlia-imagecms</Url>
+<Images>
+<MainImage>http://www.imagecms.net/addons/uploads/shop/products/main/aebee5bf638e70186d964b6f24932cfa.jpg</MainImage>
+</Images>
+<Description>&lt;p&gt;&quot;НА КОНКУРС ШАБЛОНОВ&quot; Адаптивный шаблон &quot;Ugus&quot; для ImageCMS Corporate. Адаптивный дизайн и верстка. Особый упор в адаптивности этого шаблона сделан на удобство работы с ним на современных мобильных устройствах. (см. скриншоты). Никаких монстрообразных css-фреймворков (Bootstrap). Минимум javascript-плагинов.&lt;/p&gt;  </Description>
+<Version>1.0</Version>
+<SupportedVersions>4.4</SupportedVersions>
+<Demo>http://corporate.iromanov.ru/</Demo>
+<Type>Corporate</Type>
+<Price>46</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>No</IsFree>
+</Template>
+<Template>
+<Id>108</Id>
+<Name>Универсальный шаблон сайта компании</Name>
+<Url>http://www.imagecms.net/addons/shop/product/universalnyi-shablon-saita-kompanii</Url>
+<Images>
+<MainImage>http://www.imagecms.net/addons/uploads/shop/products/main/6dcf25ec0843c0e7f489a0761b736b2e.jpg</MainImage>
+<AdditionalImages>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/cf9b21c04442bcacd992caa97b41e5d4.jpg</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/7368e59a70c1236e4de061cd62a10824.jpg</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/07cf94c9baf17280a08680c965e6301e.jpg</Image>
+</AdditionalImages>
+</Images>
+<Description>&lt;p&gt;НА КОНКУРС ШАБЛОНОВ. Шаблон фиксированной ширины для сайта компании произвольной тематики.&lt;/p&gt;  </Description>
+<Version>01</Version>
+<SupportedVersions>imagecms corporate_4.4.5</SupportedVersions>
+<Demo></Demo>
+<Type>Corporate</Type>
+<Price>10</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>No</IsFree>
+</Template>
+<Template>
+<Id>110</Id>
+<Name>Шаблон ImageCMS Corporate 4.4.5</Name>
+<Url>http://www.imagecms.net/addons/shop/product/shablon-imagecms-corporate-445</Url>
+<Images>
+<MainImage>http://www.imagecms.net/addons/uploads/shop/products/main/55cc2722078a2947a96be660fabff22c.png</MainImage>
+<AdditionalImages>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/8fe457aa72dac20b8896a6af2c1a11aa.png</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/9e81347f153d9abcf38bada3be2ed5b2.jpg</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/a8ff42bc66daffc923082d195be19baa.jpg</Image>
+</AdditionalImages>
+</Images>
+<Description>&lt;p&gt;Адаптивный шаблон для версии Corporate с параллакс-эффектом&lt;/p&gt;  </Description>
+<Version>1,0</Version>
+<SupportedVersions>4.4.5, 4.5 corporate</SupportedVersions>
+<Demo></Demo>
+<Type>Corporate</Type>
+<Price>0</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>Yes</IsFree>
+</Template>
+<Template>
+<Id>234</Id>
+<Name>FullTemplate - полный, адаптивный шаблон</Name>
+<Url>http://www.imagecms.net/addons/shop/product/234</Url>
+<Images>
+<MainImage>http://www.imagecms.net/addons/uploads/shop/products/main/317280a6aa8cc318859170cd6a2981eb.png</MainImage>
+<AdditionalImages>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/37fa6bcc1e76d8d9d46dfbe2a901c75c.png</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/0910bcabfe2cb1559fb472f76f5ca2aa.png</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/919f4f5e45f310a3758d25091e53999a.png</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/3a5e5e5689050d58ec64cad6ee421fd6.png</Image>
+<Image>http://www.imagecms.net/addons/uploads/shop/products/additional/73ee3f118fe6d4ac26b4d4a49003f36e.png</Image>
+</AdditionalImages>
+</Images>
+<Description>&lt;p&gt;Шаблон идеально соответствует Вашим пожеланиям создание корпоративных 
+сайтов, блогов и портфелей. Премиальный дизайн &amp;nbsp;будет представлять Вашу продукцию и услуги в лучшем 
+виде.&lt;/p&gt;&lt;p&gt;Чистый&amp;nbsp;HTML5 /CSS3 код и большое количество страниц и элементов сделают 
+вашу работу с шаблоном быстрой и приятной. И будьте уверены, &amp;nbsp;это&amp;nbsp;&amp;nbsp;шаблон, который будет 
+рассматриваться одинаково хорошо на всех мобильных устройствах.&lt;/p&gt;  </Description>
+<Version>1</Version>
+<SupportedVersions>4.5.2, 4.6, 4.6+</SupportedVersions>
+<Demo>http://465921.forimage.web.hosting-test.net/</Demo>
+<Type>Corporate</Type>
+<Price>30</Price>
+<CurrencySymbol>$</CurrencySymbol>
+<IsFree>No</IsFree>
+</Template>
+</TemplatesList>

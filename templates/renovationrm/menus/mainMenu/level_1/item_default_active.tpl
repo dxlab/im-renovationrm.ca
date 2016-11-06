@@ -1,0 +1,1 @@
+<li><a class="page-scroll highlightsub" href="{$link}">{$title}</a>{$wrapper}</li>

@@ -1,0 +1,37 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+2016-11-06 10:49:12 --> All cache files deleted
+2016-11-06 11:08:49 --> All cache files deleted
+2016-11-06 11:12:57 --> All cache files deleted
+2016-11-06 11:18:51 --> All cache files deleted
+2016-11-06 11:22:45 --> All cache files deleted
+2016-11-06 11:28:00 --> All cache files deleted
+2016-11-06 11:32:04 --> All cache files deleted
+2016-11-06 11:33:02 --> All cache files deleted
+2016-11-06 11:37:56 --> All cache files deleted
+2016-11-06 11:41:21 --> All cache files deleted
+2016-11-06 11:42:45 --> All cache files deleted
+2016-11-06 11:44:20 --> All cache files deleted
+2016-11-06 11:45:32 --> All cache files deleted
+2016-11-06 11:51:00 --> All cache files deleted
+2016-11-06 11:51:58 --> All cache files deleted
+2016-11-06 11:52:16 --> All cache files deleted
+2016-11-06 12:00:23 --> All cache files deleted
+2016-11-06 12:03:18 --> All cache files deleted
+2016-11-06 12:14:07 --> All cache files deleted
+2016-11-06 12:15:56 --> All cache files deleted
+2016-11-06 12:16:16 --> All cache files deleted
+2016-11-06 12:31:22 --> All cache files deleted
+2016-11-06 14:13:59 --> All cache files deleted
+2016-11-06 14:13:59 --> All cache files deleted
+2016-11-06 14:17:32 --> All cache files deleted
+2016-11-06 14:17:32 --> All cache files deleted
+2016-11-06 14:33:24 --> All cache files deleted
+2016-11-06 14:33:53 --> All cache files deleted
+2016-11-06 14:34:47 --> All cache files deleted
+2016-11-06 14:34:47 --> All cache files deleted
+2016-11-06 14:35:46 --> All cache files deleted
+2016-11-06 14:36:53 --> All cache files deleted
+2016-11-06 14:37:25 --> All cache files deleted
+2016-11-06 14:38:07 --> All cache files deleted
+2016-11-06 14:38:07 --> All cache files deleted

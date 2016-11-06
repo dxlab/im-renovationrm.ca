@@ -1,0 +1,1 @@
+<li><a href="{$link}" title="{$title}" target="_blank"><i class="fa {$image}"></i></a></li>
