@@ -50,21 +50,25 @@ $(document).ready(function(){
     $('html,body').animate(
     {
     scrollTop: $(target).offset().top 
-    }, 2000,function()
+    }, 500,function()
     {
     location.hash = target;
     });
   }
 
   //$('html, body').hide();
-  if (location.hash){
+  /*if (location.hash){
     setTimeout(function(){
       $('html, body').scrollTop(0).show();
         jump();
-        }, 4000);
+        }, 3000);
   }else {
     $('html, body').show();
-  }
+  }*/
+    if (location.hash){
+            jump();
+        }
+
   // Highlight links on scroling
   var $sections = $('section');
   $(window).scroll(function(){
