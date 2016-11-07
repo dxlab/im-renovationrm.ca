@@ -480,23 +480,25 @@ margin-top : 10px;
 padding : 70px 0;
 }
 .service {
-transition: all 1s ease 0s;
--moz-transition: all 1s ease 0s;
--webkit-transition: all 1s ease 0s;border :1px solid #eeeeee;
-cursor : pointer;
+border-radius: 3px;
+border: 2px solid #eeeeee;
+cursor: pointer;
 text-align : center;
 padding : 61px 0;
-
+    transition: all 1s;
 }
-.service:hover .service_hoverly {
-display : block;
--webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
--webkit-transition: all 0.25s;
-    -moz-transition: all 0.25s;
-    -o-transition: all 0.25s;
-    transition: all 0.25s;
+div.service:hover .service_hoverly {
+    display: block;
+    transition: all 1s;
+}
+div.service:hover {
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid #f1c40f;
+    padding: 0;
+    z-index: 1000;
+
 }
 .service > h2 {
 color : #0d1a2a;
@@ -510,7 +512,7 @@ font-size : 14px;
 font-weight : 400;
 text-transform : uppercase;
 margin : 0;
-padding-bottom : 30px;
+/*padding-bottom : 30px;*/
 }
 .service i {
 font-size : 50px;
@@ -518,12 +520,9 @@ color : #03B0F0;
 position : relative;
 }
 .service_hoverly {
-border: 2px solid #f1c40f;
-border-radius: 3px;
 display: none;
-padding: 25px 5px;
-position: absolute;
-top: 0;
+    position: relative;
+    top: -80px;
 background: #fff;
 -moz-transition: all 1s ease 0.6s;
 -webkit-transition: all 1s ease 0.6s;
@@ -1254,15 +1253,39 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
+#pr_sec {
 
+}
+.service-wrapper {
+    text-align: center;
+}
+.service-wrapper .service {
+    width: 230px;
+    display: inline-block;
+    margin: 10px 20px;
+}
 @media (min-width:1400px) {
  	#slider_sec {
 	background-image : url("../img/sliderL.jpg");
 	height: 900px;
 	}
 }
+@media (max-width:995px) {
+    .top-nav-collapse {
+        height: inherit;
+    }
+    #nav_menu ul a {
+        font-size: 10px;
+    }
+}
 @media (max-width:768px) {
+  .top-nav-collapse {
+      height: inherit;
+  }
   #nav_menu ul li {
     width: 100%;
   }
+    #nav_menu ul a {
+        font-size: 14px;
+    }
 }
