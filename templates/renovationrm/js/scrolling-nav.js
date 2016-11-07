@@ -12,7 +12,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top 
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
@@ -49,8 +49,8 @@ $(document).ready(function(){
     }
     $('html,body').animate(
     {
-    scrollTop: $(target).offset().top
-    },2000,function()
+    scrollTop: $(target).offset().top 
+    }, 2000,function()
     {
     location.hash = target;
     });
@@ -61,7 +61,7 @@ $(document).ready(function(){
     setTimeout(function(){
       $('html, body').scrollTop(0).show();
         jump();
-        }, 0);
+        }, 4000);
   }else {
     $('html, body').show();
   }
@@ -73,6 +73,7 @@ $(document).ready(function(){
     var $currentSection;
     $sections.each(function(){ 
       var sectionPosition = $(this).offset().top;
+
       if( sectionPosition - 100 < currentScroll ){
         $currentSection = $(this);
       }
