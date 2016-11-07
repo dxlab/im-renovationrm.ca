@@ -13,7 +13,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top 
-        }, 1500, 'easeInOutExpo');
+        }, 1000, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -40,21 +40,7 @@ $(document).ready(function(){
     });
   }
   // Scroll to the section on homepage when you go back from the secondary pages of website
-  var jump=function(e){
-    if (e){
-      e.preventDefault();
-      var target = $(this).attr("href");
-    } else {
-      var target = location.hash;
-    }
-    $('html,body').animate(
-    {
-    scrollTop: $(target).offset().top 
-    }, 500,function()
-    {
-    location.hash = target;
-    });
-  }
+
 
   //$('html, body').hide();
   /*if (location.hash){
@@ -65,9 +51,7 @@ $(document).ready(function(){
   }else {
     $('html, body').show();
   }*/
-    if (location.hash){
-            jump();
-        }
+
 
   // Highlight links on scroling
   var $sections = $('section');
@@ -104,7 +88,29 @@ $(document).ready(function(){
         return false;
     });
 });
-
+$(window).load(function() {
+    var jump=function(e){
+        if (e){
+            e.preventDefault();
+            var target = $(this).attr("href");
+        } else {
+            var target = location.hash;
+        }
+        $('html,body').animate(
+            {
+                scrollTop: $(target).offset().top
+            }, 0,function()
+            {
+                location.hash = target;
+            });
+    }
+    if (location.hash) {
+        setTimeout(function(){
+            $('html, body').scrollTop(0).show();
+            jump();
+        }, 500);
+    }
+});
 
 
 
