@@ -29,7 +29,15 @@ padding : 10px 0;
 transition : background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 .top-nav-collapse {
-padding : 0;
+padding: 0;
+height: 50px;
+}
+.top-nav-collapse ul li a {
+  padding: 5px 12px !important;
+}
+.top-nav-collapse .lft_hd img {
+  height: 45px;
+  width: 100px;
 }
 #loader-wrapper .logo {
 left : 48.7%;
@@ -216,14 +224,15 @@ letter-spacing : 1px;
 }
 .abt {
 margin : 0 auto;
-text-align : center;
+ text-align:justify
 }
 #skill_sec {
-padding-top : 30px;
+padding-top : 60px;
 }
 .skills-wrap .container {
 padding : 70px 0;
 }
+
 .progress {
 height : 35px;
 line-height : 35px;
@@ -250,6 +259,14 @@ color: #0f0e0e;
 }
 .progress-bar1 .progress-bar {
 background : #f1c40f;
+}
+.progress-bar1 ul {
+  width: 100% !important;
+  text-align: center;
+}
+.progress-bar1 ul li {
+  display: inline-block;
+  width: 80%;
 }
 #lts_sec {
 padding-top : 30px;
@@ -347,6 +364,7 @@ border-bottom : 1px solid #f1c40f;
 margin-top : 20px;
 margin-left : -10px;
 }
+
 #protfolio_sec .single-portfolio {
 float : left;
 margin-bottom : 10px;
@@ -584,6 +602,7 @@ background-position : center center;
 background-repeat : no-repeat;
 background-size : 100% 100%;
 padding : 40px 0;
+padding-top: 80px;
 }
 .all_tstm {
 display : table;
@@ -753,10 +772,10 @@ background : #F0F0F0;
 padding : 70px 0;
 }
 .owl-item .sngl_clt a {
-text-align : left;
+text-align : center; 
 width : 100%;
 display : inline-block;
-margin-left : 40px;
+margin-left : 60px;
 }
 .owl-item .sngl_clt img {
 width : 100px;
