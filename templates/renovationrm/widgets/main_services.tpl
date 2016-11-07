@@ -9,8 +9,10 @@
 						<h2>{tlang('We offer and guarantee the following high quality services')}</h2>
 					</div>
 				</div>
+				<div class="service-wrapper">
 				{foreach $loc_main_services_list->getBannerImages() as $item}
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">-->
+
 					<div class="service">
 						<img src="{echo $item->getImageOriginPath()}" alt="{echo $item->getName()}">
 						<h2>{echo $item->getName()}</h2>
@@ -20,8 +22,8 @@
 							<p>{echo $item->getDescription()}</p>
 						</div>
 					</div>
-				</div>
 				{/foreach}
+				</div>
 			</div>
 		</div>
 	</section>
