@@ -221,7 +221,7 @@ $(window).load(function(){
 	$('.al_clt').owlCarousel({
 		items:6,
 		loop:true,
-		margin:30,
+		margin:60,
 		nav:true,
 		autoplay:true,
 		smartSpeed:3000,	
@@ -231,10 +231,10 @@ $(window).load(function(){
 				items:1
 			},
 			600:{
-				items:6
+				items:4
 			},
 			1000:{
-				items:6
+				items:4
 			}
 		}
 	})
