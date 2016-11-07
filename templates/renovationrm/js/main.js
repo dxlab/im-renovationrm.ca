@@ -228,10 +228,10 @@ $(window).load(function(){
 		navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
 		responsive:{
 			0:{
-				items:1
+				items:2
 			},
 			600:{
-				items:4
+				items:2
 			},
 			1000:{
 				items:4
