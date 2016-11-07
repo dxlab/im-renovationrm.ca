@@ -20,7 +20,7 @@
 
 		{foreach $images as $item}
 
-			<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
+			<div>
 				<div class="single-portfolio {print $album_descr[$item.album_id]}">
 					<a class="fancybox" rel="group" href="{$item.file_path}"><img class="img-responsive" src="{$item.file_path}" alt=""></a>
 				</div>
