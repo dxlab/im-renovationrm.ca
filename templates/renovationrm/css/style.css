@@ -1253,9 +1253,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
-#pr_sec {
 
-}
 .service-wrapper {
     text-align: center;
 }
@@ -1263,6 +1261,23 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
     width: 230px;
     display: inline-block;
     margin: 10px 20px;
+}
+.error404 {
+    padding: 130px;
+    background-image: url("../img/404.png");
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../img/404.png");
+    background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../img/404.png");
+    background-image: -o-linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../img/404.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../img/404.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.error404 h1 {
+    font-size: 25px;
+}
+.error404 h2 {
+    font-size: 18px;
 }
 @media (min-width:1400px) {
  	#slider_sec {
