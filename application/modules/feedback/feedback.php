@@ -136,11 +136,12 @@ class Feedback extends MY_Controller {
                 }
                 return false;
             } else { // form is validate
+               $theme = ($this->input->post('theme')) ? $this->input->post('theme') : "Feedback message" ;
                 $this->message = strip_tags(nl2br(
-                    lang('Theme', 'feedback') . ' : ' . $this->input->post('theme') .
-                    lang('Name', 'feedback') . ' : ' . $this->input->post('name') .
-                    lang('E-mail', 'feedback') . ' : ' . $this->input->post('email') .
-                    lang('Message', 'feedback') . ' : ' . $this->input->post('message')
+                    lang('Theme', 'feedback') . ' : ' . $theme ."\n".
+                    lang('Name', 'feedback') . ' : ' . $this->input->post('name') ."\n".
+                    lang('E-mail', 'feedback') . ' : ' . $this->input->post('email') ."\n".
+                    lang('Message', 'feedback') . ' : ' . $this->input->post('message')."\n"
                 ));
                 $this->_send_message($no_ajax);
                 return true;
@@ -173,7 +174,8 @@ class Feedback extends MY_Controller {
         $this->email->from($this->input->post('email'), $this->input->post('name'));
         $this->email->to($this->admin_mail);
 
-        $this->email->subject($this->input->post('theme'));
+        $theme = ($this->input->post('theme')) ? $this->input->post('theme') : "Feedback message" ;
+        $this->email->subject($theme);
         $this->email->message($this->message);
 
         $this->email->send();

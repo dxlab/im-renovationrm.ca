@@ -9,8 +9,10 @@
 						<h2><?php echo tlang ('We offer and guarantee the following high quality services'); ?></h2>
 					</div>
 				</div>
+				<div class="service-wrapper">
 				<?php if(is_true_array($loc_main_services_list->getBannerImages())){ foreach ($loc_main_services_list->getBannerImages() as $item){ ?>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">-->
+
 					<div class="service">
 						<img src="<?php echo $item->getImageOriginPath()?>" alt="<?php echo $item->getName()?>">
 						<h2><?php echo $item->getName()?></h2>
@@ -20,9 +22,9 @@
 							<p><?php echo $item->getDescription()?></p>
 						</div>
 					</div>
-				</div>
 				<?php }} ?>
+				</div>
 			</div>
 		</div>
 	</section>
-<?php endif; ?><?php $mabilis_ttl=1478520489; $mabilis_last_modified=1478359125; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_services.tpl ?>
+<?php endif; ?><?php $mabilis_ttl=1479222429; $mabilis_last_modified=1478527919; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_services.tpl ?>

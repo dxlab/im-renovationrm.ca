@@ -13,4 +13,4 @@
     </ul>
 </div>
 <?php endif; ?>
-<?php $mabilis_ttl=1478520489; $mabilis_last_modified=1477669058; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_portfolio.tpl ?>
+<?php $mabilis_ttl=1479222429; $mabilis_last_modified=1477669058; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_portfolio.tpl ?>

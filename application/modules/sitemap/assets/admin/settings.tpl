@@ -6,35 +6,35 @@
         </div>
         <div class="pull-right">
             <div class="d-i_b">
-                <a href="/admin/components/modules_table" class="t-d_n m-r_15 pjax"><span class="f-s_14">←</span> <span class="t-d_u">{lang("Back", 'admin')}</span></a>
+                <a href="/admin/components/init_window/sitemap/priorities" class="t-d_n m-r_15 pjax"><span class="f-s_14">←</span> <span class="t-d_u">{lang("Go back", 'sitemap')}</span></a>
                 <button type="button" class="btn btn-small btn-primary formSubmit" data-form="#sitemap_settings_form" data-submit><i class="icon-ok icon-white"></i>{lang("Save", 'sitemap')}</button>
                 <div class="p_r d-i_b v-a_m">
                     <button type="button" class="btn btn-small btn-info dropdown-toggle" data-toggle="dropdown">
-                        <i class="icon-list"></i>
+                        <i class="icon-white icon-list"></i>
                         {lang('Others', 'sitemap')}<span class="caret"></span>
                     </button>
-                    <ul class="dropdown-menu sds" role="menu" style="right:0;left:auto;">
-                        <li><a style="text-decoration: none" class="" href="/admin/components/init_window/sitemap/priorities">{lang('Priorities', 'sitemap')}</a></li>
-                        <li><a style="text-decoration: none" class="" href="/admin/components/init_window/sitemap/changefreq">{lang('Change frequency', 'sitemap')}</a></li>
-                        <li><a style="text-decoration: none" class="" href="/admin/components/init_window/sitemap/blockedUrls">{lang('Block urls', 'sitemap')}</a></li>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a style="text-decoration: none" class="pjax" href="/admin/components/init_window/sitemap/priorities">{lang('Priorities', 'sitemap')}</a></li>
+                        <li><a style="text-decoration: none" class="pjax" href="/admin/components/init_window/sitemap/changefreq">{lang('Change frequency', 'sitemap')}</a></li>
+                        <li><a style="text-decoration: none" class="pjax" href="/admin/components/init_window/sitemap/blockedUrls">{lang('Block urls', 'sitemap')}</a></li>
                         <li class="divider"></li>
                         <li><a style="text-decoration: none" href="{site_url('sitemap.xml')}" target="_blank">{lang("View Site Map", 'sitemap')}</a></li>
                         <li class="divider"></li>
-                        <li><a style="text-decoration: none" class="" href="/admin/components/init_window/sitemap/settings">{lang('Settings', 'sitemap')}</a></li>
+                        <li><a style="text-decoration: none" class="pjax" href="/admin/components/init_window/sitemap/settings">{lang('Settings', 'sitemap')}</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>                            
     </div>
-    <form action="/admin/components/cp/sitemap/settings" id="sitemap_settings_form" method="post" class="form-horizontal m-t_10">
-        <table class="table  table-bordered table-hover table-condensed content_big_td">
+    <form action="/admin/components/cp/sitemap/settings" id="sitemap_settings_form" method="post" class="form-horizontal">
+        <table class="table table-striped table-bordered table-hover table-condensed content_big_td">
             <thead>
             <th>{lang("Settings", 'sitemap')}</th>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        <div class="inside_padd">
+                        <div class="inside_padd span9">
 
                             <div class="control-group">
                                 <label class="control-label" for="comcount">{lang("Return sitemap parameter", 'sitemap')}:</label>
@@ -43,7 +43,9 @@
                                         <option value="1" {if $settings.generateXML}selected="selected"{/if}>{lang('Generate an updated map at the entrance to the robot', 'sitemap')}</option>
                                         <option value="0" {if !$settings.generateXML}selected="checked"{/if}>{lang('Give robots a saved version of the map', 'sitemap')}</option>
                                     </select>
-                                    <div class="savedSitemap m-t_5" style="{if $settings.generateXML}display: none{/if}">
+                                    <br/>
+                                    <br/>
+                                    <div class="savedSitemap" style="{if $settings.generateXML}display: none{/if}">
                                         {if $fileSiteMapData}
                                             <div>
                                                 <a href="{echo site_url('admin/components/init_window/sitemap/sitemapDownload')}">{lang('Saved Site Map', 'sitemap')}</a>
@@ -54,7 +56,8 @@
                                                 <span class="help-block">{lang('There is no saved Site Map.', 'sitemap')}</span>
                                             </div>
                                         {/if}
-                                        <button type="button" onclick="SiteMap.saveSiteMap()" class="btn btn-small btn-default m-t_15">
+                                        <br/>
+                                        <button type="button" onclick="SiteMap.saveSiteMap()" class="btn btn-small btn-default">
                                             {if $fileSiteMapData}
                                                 <i class="icon-refresh"></i>
                                                 {lang("Update", 'sitemap')}
@@ -63,6 +66,8 @@
                                                 {lang("Save", 'sitemap')}
                                             {/if}
                                         </button>
+                                        <br/>
+                                        <br/>
                                     </div>
                                 </div>
                             </div>

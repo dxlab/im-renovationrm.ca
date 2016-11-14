@@ -20,7 +20,7 @@
 
 		<?php if(is_true_array($images)){ foreach ($images as $item){ ?>
 
-			<div class="col-sm-12  col-lg-12 col-md-12 col-xs-12 ">
+			<div>
 				<div class="single-portfolio <?php print $album_descr[ $item['album_id'] ] ?>">
 					<a class="fancybox" rel="group" href="<?php echo $item['file_path']; ?>"><img class="img-responsive" src="<?php echo $item['file_path']; ?>" alt=""></a>
 				</div>
@@ -30,4 +30,4 @@
 
 
 	</div>
-<?php endif; ?><?php $mabilis_ttl=1478520489; $mabilis_last_modified=1478435028; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/widgets/main_gallery.tpl ?>
+<?php endif; ?><?php $mabilis_ttl=1479222429; $mabilis_last_modified=1478536155; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/widgets/main_gallery.tpl ?>

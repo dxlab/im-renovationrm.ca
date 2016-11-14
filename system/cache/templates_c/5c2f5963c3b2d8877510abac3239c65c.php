@@ -104,4 +104,4 @@ map: map
 
 </body>
 </html>
-<?php $mabilis_ttl=1478520489; $mabilis_last_modified=1478104131; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/main.tpl ?>
+<?php $mabilis_ttl=1479222429; $mabilis_last_modified=1478104131; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/main.tpl ?>
