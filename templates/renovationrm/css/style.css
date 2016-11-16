@@ -397,7 +397,7 @@ display : block;
 height : 90px;
 }
 .wrap_caption {
-padding : 190px 0;
+padding : 150px 0;
 }
 .slider {
 display : block;
@@ -414,19 +414,19 @@ height : 650px;
 width : 100%;
 }
 .left_crousel_btn, .right_crousel_btn {
-color : #fff;
-height : 20px;
-position : absolute;
-text-align : center;
-top : 50%;
-width : 20px;
-font-size : 25px;
-font-weight : normal;
+    color: #f1c40f;
+    height: 12px;
+    position: absolute;
+    text-align: center;
+    top: 47%;
+    width: 20px;
+    font-size: 40px;
+    font-weight: bolder;
 }
 .caption_carousel h1 {
 font-family : lato;
 font-size : 60px;
-padding: 2em 0;
+padding: 1em 0;
 text-transform : capitalize;
 color : #ecf0f1;
 -webkit-text-stroke: 2px black;
@@ -459,8 +459,9 @@ outline: 2px dashed #f1c40f;
 outline-offset: -5px;
 }
 .carousel-indicators li {
+display:none !important;
 background-color : #363636;
-border : none medium;
+border : 1px dashed #f1c40f;
 border-radius : 2px;
 cursor : pointer;
 display : inline-block;
@@ -1298,6 +1299,18 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus{
 }
 .error404 h2 {
     font-size: 18px;
+}
+.trustedpros {
+    content: url("../img/social/trustedpros.png");
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+.homestars {
+    content: url("../img/social/homestars.png");
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
 }
 @media (min-width:1400px) {
  	#slider_sec {

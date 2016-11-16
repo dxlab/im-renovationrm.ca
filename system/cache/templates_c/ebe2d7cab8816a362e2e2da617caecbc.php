@@ -26,4 +26,4 @@
 			</div>
 		</div>
 	</section>
-<?php endif; ?><?php $mabilis_ttl=1479222429; $mabilis_last_modified=1478358496; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_partners.tpl ?>
+<?php endif; ?><?php $mabilis_ttl=1479397419; $mabilis_last_modified=1478358496; //D:\xampp\htdocs\im-renovationrm.ca\templates\renovationrm/widgets/main_partners.tpl ?>

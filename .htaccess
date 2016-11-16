@@ -5,8 +5,8 @@ Options -Indexes
 
 RewriteEngine on
 
-# RewriteCond %{HTTP_HOST} ^www.site.com$ [NC]
-# RewriteRule ^(.*)$ http://site.com/$1 [L,R=301]
+# RewriteCond %{HTTP_HOST} ^www.renovationrm.ca$ [NC]
+# RewriteRule ^(.*)$ http://renovationrm.ca/$1 [L,R=301]
 
 <ifModule pagespeed_module>
 Modpagespeed off
@@ -31,8 +31,9 @@ ExpiresByType text/html "access 1 year"
 RewriteRule ^(.*)\.tpl$ [R=404]
 RewriteRule ^(.*)backups(.*)\.zip$ [R=404]
 
-RewriteCond $1 !^(index\.php|assets/.*|uploads/.*|application/third_party/(tinymce|filemanager|studio-42).*|favicon\.ico|favicon\.png|captcha/.*|application/.*/templates|application/.*/assets/js|application/.*/assets/css|application/.*/assets/images|CHANGELOG.xml|templates|js|application/modules/update/UpdateService.wsdl)
-RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteCond $1 !^(index\.php|user_guide|uploads|android/.*|favicon\.ico|docs|favicon\.png|captcha/.*|application/modules/.*/templates|application/modules/.*/assets/js|application/modules/.*/assets/css|application/modules/.*/assets/images|CHANGELOG.xml|templates|js|robots\.txt)
+
+RewriteRule ^(.+)$ /index.php?$1 [L,QSA]
 
 ####################################
 # or

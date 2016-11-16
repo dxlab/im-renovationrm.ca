@@ -51,4 +51,4 @@
 <!-- End located map  Section -->
 <a href="#" class="scrollup"></a>
 
-<?php $mabilis_ttl=1479222429; $mabilis_last_modified=1478354949; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/page_full_home.tpl ?>
+<?php $mabilis_ttl=1479397418; $mabilis_last_modified=1478354949; //D:\xampp\htdocs\im-renovationrm.ca\templates/renovationrm/page_full_home.tpl ?>

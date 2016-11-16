@@ -30,10 +30,10 @@ width : 820px;
 margin-left : 10px;
 }
 .left_crousel_btn {
-left : 30px;
+left : 15px;
 }
 .right_crousel_btn {
-right : 30px;
+right : 15px;
 }
 }
 @media (min-width:768px) and (max-width:991px) {
@@ -62,10 +62,10 @@ margin-left : 240px;
 margin-bottom : 40px;
 }
 .left_crousel_btn {
-left : 30px;
+left : 10px;
 }
 .right_crousel_btn {
-right : 30px;
+right : 10px;
 }
 .widget {
 float : left;
